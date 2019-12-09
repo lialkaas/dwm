@@ -1,7 +1,7 @@
 # dwm
-Fork of minimalist windows manager dwm from suckless.org /w custom configuration.
+Fork of minimalist windows manager dwm with custom configuration. See modded `.xinitrc` for launching dwm and displaying _information_ in status bar.
 
-### Installed patches:
+## Installed patches:
 - alpha
 - fakefullscreen
 - noborder
@@ -11,7 +11,7 @@ Fork of minimalist windows manager dwm from suckless.org /w custom configuration
 
 Changed colorscheme to aka gruvbox. Fixed path to X11 libs.
 
-### Original readme:
+To obtain configuration file `config.h`, (re)compile the source code. For information on installation refer to original README below.
 ```
 dwm - dynamic window manager
 ============================
@@ -62,3 +62,9 @@ Configuration
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
 ```
+
+## License and Copyright
+Licensed under [MIT/X Consortium License](LICENSE)
+
+## Reference
+https://dwm.suckless.org/
