@@ -1,3 +1,18 @@
+# dwm
+Fork of minimalist windows manager dwm from suckless.org /w custom configuration.
+
+### Installed patches:
+- alpha
+- fakefullscreen
+- noborder
+- notitle
+- pertag
+- tilegap
+
+Changed colorscheme to aka gruvbox. Fixed path to X11 libs.
+
+### Original readme:
+```
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
@@ -46,3 +61,4 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+```
